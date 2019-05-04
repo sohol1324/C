@@ -12,11 +12,11 @@ int main(void)
 	}
 	if (a < b)
 	{
-		printf("%d %d\n", b, a);
+		printf("%d %d\n", a, b);
 	}
 	else
 	{
-		printf("%d %d\n", a, b);
+		printf("%d %d\n", b, a);
 	}
 
 	return 0;
