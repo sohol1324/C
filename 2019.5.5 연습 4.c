@@ -1,4 +1,4 @@
-/*ÀÔ·Â °ª Áß ÃÖ´ë°ªÀ» Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥*/
+/*ì…ë ¥ ê°’ ì¤‘ ìµœëŒ€ê°’ì„ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨*/
 
 #include <stdio.h>
 
@@ -8,6 +8,11 @@ int main(void)
 
 	printf("Enter Data = ");
 
+	if (scanf("%d", &data) != 1)
+	{
+		return printf("No Data\n"), 1;
+	}
+
 	while (scanf("%d", &data) == 1)
 	{
 		if (data > i)
@@ -16,13 +21,8 @@ int main(void)
 		}
 	}
 
-	if (!i)
-	{
-		return printf("No Data\n"), 1;
-	}
-
-	printf("ÃÖ´ë°ª = %d\n", i);
+	printf("ìµœëŒ€ê°’ = %d\n", i);
 
 	return 0;
 
-}
+}		
