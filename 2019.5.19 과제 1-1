@@ -21,7 +21,7 @@ int main(void)
 		printf("%f", random_f());
 	}
 
-	printf("\n�Լ��� ȣ��� Ƚ�� = %d\n", call_count);
+	printf("\nÇÔ¼ö°¡ È£ÃâµÈ È½¼ö = %d\n", call_count);
 
 	return 0;
 }
