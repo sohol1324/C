@@ -1,5 +1,5 @@
-/*Á¶ÇÕÀ» °è»êÇÏ´Â ÇÁ·Î±×·¥(recursion)
-  201914023 Á¤¿ìÁø*/
+/*ì¡°í•©ì„ ê³„ì‚°í•˜ëŠ” í”„ë¡œê·¸ë¨(recursion)
+  201914023 ì •ìš°ì§„*/
 
 #include <stdio.h>
 
@@ -9,11 +9,11 @@ static float result = 1;
 int main(void)
 {
 	unsigned int n, r = 0;
-	printf("n°ú rÀÇ °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("nê³¼ rì˜ ê°’ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 	scanf("%d %d", &n, &r);
 	if (n < r)
 	{
-		return printf("Error : rÀÌ nº¸´Ù Å¬ ¼ö ¾ø½À´Ï´Ù.\n"), 0;
+		return printf("Error : rì´ në³´ë‹¤ í´ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.\n"), 0;
 	}
 	comb(n, r);
 	printf("%dC%d = %d\n", n, r, (int)result);
