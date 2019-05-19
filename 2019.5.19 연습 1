@@ -3,7 +3,7 @@
 int in (void)
 {
 	int i = 0;
-	printf("¿¬»ê ÀÔ·Â(1.µ¡¼À, 2.»¬¼À, 3.°ö¼À, 4.³ª´°¼À, 0.Á¾·á)");
+	printf("ì—°ì‚° ì…ë ¥(1.ë§ì…ˆ, 2.ëº„ì…ˆ, 3.ê³±ì…ˆ, 4.ë‚˜ëˆ—ì…ˆ, 0.ì¢…ë£Œ)");
 	scanf("%d", &i);
 	return i;
 }
@@ -17,7 +17,7 @@ int num(void)
 
 void showresult(int result)
 {
-	printf("°á°ú: %d\n", result);
+	printf("ê²°ê³¼: %d\n", result);
 }
 
 
@@ -55,7 +55,7 @@ int main(void)
 		{
 			break;
 		}
-		printf("µÎ Á¤¼ö ÀÔ·Â: ");
+		printf("ë‘ ì •ìˆ˜ ì…ë ¥: ");
 		num1 = num();
 		num2 = num();
 
