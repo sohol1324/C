@@ -1,5 +1,5 @@
-/*Lab : ÃÖ¼Ú°ªÀ» Ã£´Â ÇÁ·Î±×·¥
-  201914023 Á¤¿ìÁø*/
+/*Lab : ìµœì†Ÿê°’ì„ ì°¾ëŠ” í”„ë¡œê·¸ë¨
+  201914023 ì •ìš°ì§„*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -29,6 +29,6 @@ int main(void)
 			minimum = prices[i];
 		}
 	}
-	printf("ÃÖ¼Ò°ªÀº %dÀÔ´Ï´Ù.\n", minimum);
+	printf("ìµœì†Œê°’ì€ %dì…ë‹ˆë‹¤.\n", minimum);
 	return 0;
 }
