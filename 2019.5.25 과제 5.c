@@ -1,5 +1,5 @@
-/*¿¹Á¦: ÀÌÁø Å½»ö
-  201914023 Á¤¿ìÁø*/
+/*ì˜ˆì œ: ì´ì§„ íƒìƒ‰
+  201914023 ì •ìš°ì§„*/
 
 #include <stdio.h>
 #define SIZE 16
@@ -9,9 +9,9 @@ int main(void)
 {
 	int key;
 	int grade[SIZE] = { 2,6,11,13,18,20,22,27,29,30,34,38,41,42,45,47 };
-	printf("Å½»öÇÒ °ªÀ» ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("íƒìƒ‰í•  ê°’ì„ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d", &key);
-	printf("Å½»ö °á°ú= %d\n", binary_search(grade, SIZE, key));
+	printf("íƒìƒ‰ ê²°ê³¼= %d\n", binary_search(grade, SIZE, key));
 
 	return 0;
 }
