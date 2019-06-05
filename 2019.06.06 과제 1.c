@@ -4,9 +4,9 @@ int main(void)
 {
 	char name[100];
 	char address[100];
-	printf("ÀÌ¸§À» ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì´ë¦„ì„ ì…ë ¥í•˜ì‹œì˜¤: ");
 	gets_s(name, 100);
-	printf("ÇöÀç °ÅÁÖÇÏ´Â ÁÖ¼Ò¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("í˜„ì¬ ê±°ì£¼í•˜ëŠ” ì£¼ì†Œë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 	gets_s(address, 100);
 	puts(name);
 	puts(address);
