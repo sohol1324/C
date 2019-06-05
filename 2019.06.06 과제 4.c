@@ -1,5 +1,5 @@
-/*¿¹Á¦ : 12Àå º¸Ãæ ÀÚ·á
-  201914023 Á¤¿ìÁø*/
+/*ì˜ˆì œ : 12ì¥ ë³´ì¶© ìë£Œ
+  201914023 ì •ìš°ì§„*/
 
 #include <stdio.h>
 #include <string.h>
@@ -11,7 +11,7 @@ int main() {
 	puts(strncpy(s, "12", 3));
 	strcpy(s, "AB"), puts(strcat(s, "123"));
 	strcpy(s, "AB"), puts(strncat(s, "123", 2));
-	printf("%d\n", strcmp("°¡", "a"));
+	printf("%d\n", strcmp("ê°€", "a"));
 	printf("%d\n", strcmp("a", "A"));
 	printf("%d\n", strcmp("A", "0"));
 	printf("%d\n", strcmp("ab", "ab"));
