@@ -1,3 +1,6 @@
+/*예제: gets_s(), puts()
+  201914023 정우진*/
+
 #include <stdio.h>
 
 int main(void)
