@@ -1,5 +1,5 @@
-/*¿¹Á¦: getchar(), putchar()
-  201914023 Á¤¿ìÁø*/
+/*ì˜ˆì œ : getchar(), putchar()
+  201914023 ì •ìš°ì§„*/
 
 #include <stdio.h>
 
