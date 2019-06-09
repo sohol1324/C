@@ -6,12 +6,12 @@ int main(void)
 	char fruits[3][20];
 	for (i = 0; i < 3; i++)
 	{
-		printf("°úÀÏ ÀÌ¸§À» ÀÔ·ÂÇÏ½Ã¿À: ", fruits[i]);
+		printf("ê³¼ì¼ ì´ë¦„ì„ ìž…ë ¥í•˜ì‹œì˜¤: ", fruits[i]);
 		scanf("%s", fruits[i]);
 	}
 	for (i = 0; i < 3; i++)
 	{
-		printf("%d¹øÂ° °úÀÏ: %s\n", i, fruits[i]);
+		printf("%dë²ˆì§¸ ê³¼ì¼: %s\n", i, fruits[i]);
 	}
 
 	return 0;
