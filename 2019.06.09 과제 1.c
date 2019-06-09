@@ -1,3 +1,6 @@
+/*예제: 2차원 배열로 입력
+  201914023 정우진*/
+
 #include <stdio.h>
 
 int main(void)
