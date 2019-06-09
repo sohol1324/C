@@ -1,5 +1,5 @@
-/*Lab: 2Â÷¿ø °ø°£ »óÀÇ Á¡À» ±¸Á¶Ã¼·Î Ç¥ÇöÇÏ±â
-  201914023 Á¤¿ìÁø*/
+/*Lab: 2ì°¨ì› ê³µê°„ ìƒì˜ ì ì„ êµ¬ì¡°ì²´ë¡œ í‘œí˜„í•˜ê¸°
+  201914023 ì •ìš°ì§„*/
 
 #include <stdio.h>
 #include <math.h>
@@ -16,10 +16,10 @@ int main(void)
 	int xdiff, ydiff = 0;
 	double dist = 0;
 
-	printf("Á¡ÀÇ ÁÂÇ¥¸¦ ÀÔ·ÂÇÏ½Ã¿À(x, y): ");
+	printf("ì ì˜ ì¢Œí‘œë¥¼ ì…ë ¥í•˜ì‹œì˜¤(x, y): ");
 	scanf("%d %d", &p1.x, &p1.y);
 
-	printf("Á¡ÀÇ ÁÂÇ¥¸¦ ÀÔ·ÂÇÏ½Ã¿À(x, y): ");
+	printf("ì ì˜ ì¢Œí‘œë¥¼ ì…ë ¥í•˜ì‹œì˜¤(x, y): ");
 	scanf("%d %d", &p2.x, &p2.y);
 
 	xdiff = p1.x - p2.x;
@@ -27,7 +27,7 @@ int main(void)
 
 	dist = sqrt((double)(xdiff * xdiff + ydiff * ydiff));
 
-	printf("µÎ Á¡»çÀÌÀÇ °Å¸®´Â %fÀÔ´Ï´Ù.\n", dist);
+	printf("ë‘ ì ì‚¬ì´ì˜ ê±°ë¦¬ëŠ” %fì…ë‹ˆë‹¤.\n", dist);
 
 	return 0;
 }
