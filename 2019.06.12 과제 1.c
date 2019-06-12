@@ -13,7 +13,7 @@ int main(void)
 	struct vector sum;
 
 	sum = get_vector_sum(a, b);
-	printf("º¤ÅÍÀÇ ÇÕÀº (%f, %f)ÀÔ´Ï´Ù.\n", sum.x, sum.y);
+	printf("ÂºÂ¤Ã…ÃÃ€Ã‡ Ã‡Ã•Ã€Âº (%f, %f)Ã€Ã”Â´ÃÂ´Ã™.\n", sum.x, sum.y);
 
 	return 0;
 }
