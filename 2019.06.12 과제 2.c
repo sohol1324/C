@@ -1,5 +1,5 @@
-/*¿¹Á¦: °ø¿ëÃ¼¿¡ Å¸ÀÔ ÇÊµå »ç¿ë
-  201914023 Á¤¿ìÁø*/
+/*ì˜ˆì œ: ê³µìš©ì²´ì— íƒ€ì… í•„ë“œ ì‚¬ìš©
+  201914023 ì •ìš°ì§„*/
 
 #include <stdio.h>
 #include <string.h>
@@ -20,15 +20,15 @@ void print(struct student s)
 	switch (s.type)
 	{
 	case STU_NUMBER:
-		printf("ÇĞ¹ø %d\n", s.id.stu_number);
-		printf("ÀÌ¸§: %s\n", s.name);
+		printf("í•™ë²ˆ %d\n", s.id.stu_number);
+		printf("ì´ë¦„: %s\n", s.name);
 		break;
 	case REG_NUMBER:
-		printf("ÁÖ¹Îµî·Ï¹øÈ£: %s\n", s.id.reg_number);
-		printf("ÀÌ¸§: %s\n", s.name);
+		printf("ì£¼ë¯¼ë“±ë¡ë²ˆí˜¸: %s\n", s.id.reg_number);
+		printf("ì´ë¦„: %s\n", s.name);
 		break;
 	default:
-		printf("Å¸ÀÔ¿À·ù\n");
+		printf("íƒ€ì…ì˜¤ë¥˜\n");
 		break;
 	}
 }
@@ -39,11 +39,11 @@ int main(void)
 
 	s1.type = STU_NUMBER;
 	s1.id.stu_number = 20190001;
-	strcpy(s1.name, "È«±æµ¿");
+	strcpy(s1.name, "í™ê¸¸ë™");
 
 	s2.type = REG_NUMBER;
 	strcpy(s2.id.reg_number, "860101-1056076");
-	strcpy(s2.name, "±èÃ¶¼ö");
+	strcpy(s2.name, "ê¹€ì² ìˆ˜");
 
 	print(s1);
 	print(s2);
