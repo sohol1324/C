@@ -1,5 +1,5 @@
-/*¿¹Á¦ : ¿­°ÅÇü
-  201914023 Á¤¿ìÁø*/
+/*ì˜ˆì œ : ì—´ê±°í˜•
+  201914023 ì •ìš°ì§„*/
 
 #include <stdio.h>
 
@@ -12,6 +12,6 @@ int main(void)
 {
 	enum days d;
 	d = WED;
-	printf("%d¹øÂ° ¿äÀÏÀº %sÀÔ´Ï´Ù\n", d, days_name[d]);
+	printf("%dë²ˆì§¸ ìš”ì¼ì€ %sì…ë‹ˆë‹¤\n", d, days_name[d]);
 	return 0;
 }
