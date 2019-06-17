@@ -1,5 +1,5 @@
-/*Lab: 2Â÷¿ø °ø°£ »óÀÇ Á¡À» POINT Å¸ÀÔÀ¸·Î Á¤ÀÇÇÏ±â
-  201914023 Á¤¿ìÁø*/
+/*Lab: 2ì°¨ì› ê³µê°„ ìƒì˜ ì ì„ POINT íƒ€ì…ìœ¼ë¡œ ì •ì˜í•˜ê¸°
+  201914023 ì •ìš°ì§„*/
 
 #include <stdio.h>
 
@@ -17,7 +17,7 @@ int main(void)
 	POINT result;
 
 	result = translate(p, delta);
-	printf("»õ·Î¿î Á¡ÀÇ ÁÂÇ¥´Â(%d, %d)ÀÔ´Ï´Ù.\n", result.x, result.y);
+	printf("ìƒˆë¡œìš´ ì ì˜ ì¢Œí‘œëŠ”(%d, %d)ì…ë‹ˆë‹¤.\n", result.x, result.y);
 
 	return 0;
 }
